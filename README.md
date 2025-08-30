@@ -24,6 +24,6 @@ This mod is built using NeoForge for Minecraft 1.21.1. The main mod class is loc
 
 - `src/main/java/` - Java source code
 - `src/main/resources/` - Resources including textures, models, and data
-- `src/main/resources/META-INF/neoforge/mods.toml` - Mod metadata
+- `src/main/resources/META-INF/neoforge.mods.toml` - Mod metadata
 - `build.gradle` - Build configuration
 - `gradle.properties` - Project properties

@@ -4,7 +4,7 @@ license="MIT"
 
 [[mods]]
 modId="curseborn"
-version="${file.jarVersion}"
+version="1.0.0"
 displayName="Curseborn"
 logoFile="logo.png"
 credits="Created using NeoForge"
