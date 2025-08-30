@@ -16,7 +16,7 @@ A NeoForge Minecraft mod that adds cursed elements to your world.
 [[dependencies.curseborn]]
 modId="neoforge"
 type="required"
-versionRange="[21.1.0,)"
+versionRange="[21.1.55,)"
 ordering="NONE"
 side="BOTH"
 
