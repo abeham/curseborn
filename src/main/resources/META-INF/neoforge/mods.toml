@@ -1,0 +1,28 @@
+modLoader="neoforge"
+loaderVersion="[4,)"
+license="MIT"
+
+[[mods]]
+modId="curseborn"
+version="${file.jarVersion}"
+displayName="Curseborn"
+logoFile="logo.png"
+credits="Created using NeoForge"
+authors="YourName"
+description='''
+A NeoForge Minecraft mod that adds cursed elements to your world.
+'''
+
+[[dependencies.curseborn]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.0,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.curseborn]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1,1.22)"
+ordering="NONE"
+side="BOTH"

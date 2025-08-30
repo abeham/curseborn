@@ -1,0 +1,31 @@
+# Build output
+build/
+run/
+.gradle/
+gradle-app.setting
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.project
+.classpath
+.settings/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Minecraft
+logs/
+crash-reports/
+
+# Java
+*.class
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+
+# Generated resources
+src/generated/
