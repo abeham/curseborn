@@ -8,7 +8,7 @@ version="1.0.0"
 displayName="Curseborn"
 logoFile="logo.png"
 credits="Created using NeoForge"
-authors="YourName"
+authors="Vincent & Andreas Beham"
 description='''
 A NeoForge Minecraft mod that adds cursed elements to your world.
 '''

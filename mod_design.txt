@@ -1,0 +1,42 @@
+# Curseborn
+
+In diesem Mod schlüpft der Spieler in die Rolle eines Vampirs oder einer Mumie. Der Kreativmodus von Minecraft bleibt unverändert. Es können die zusätzlichen Blöcke und Gegenstände im Mod verwendet werden um sich z.B. eine dunkle Festung zu bauen. Im Überlebensmodus bekommen Vampir und Mumie Spezialeigenschaften und besondere Fähigkeiten.
+
+## Der Vampir
+
+Zu einem Vampir wird man durch den Vampireffekt dieser Effekt ist nicht kombinierbar mit anderen Effekten. Dieser Effekt hat kein Ablaufdatum. Der Vampireffekt bewirkt, dass:
+- Es gibt eine Dunkelheitsleiste änlich wie die Luftblasenleiste. Wenn sich der Vampir dem Sonnenlicht aussetzt wird von dieser Leiste abgezogen. 1/Sekunde für max 10 Sekunden. Danach beginnt der Vampir zu brennen und nimmt Brandschaden. In der Dunkelheit regeniert sich diese Leiste 5 Sekunden pro Stufe.
+- Statt der Hungerleiste und der Herzchenleiste gibt es nur eine Blutleiste.
+
+Mobs die von einem Spieler mit Vampireffekt getroffen werden verlieren Blut welches der Vampir mit einer Flasche aufsammeln muss. Das Blut liegt dabei als zusätzliche Textur (ähnlich den Blättern) auf dem Block. Die Blutflaschen lassen sich im Inventar bis zu einer Größe von 16 stacken. Der Vampir kann dafür kein normales Essen konsumieren, seine "Hungerleiste" füllt sich nur durch Blut. Alles was bei normalen Spielern Hunger verursachen würde, wirkt sich beim Vampir auf die Blutleiste aus. Auch Schaden wirkt sich auf die Blutleiste auf.
+
+Bei Wahl der Rolle Vampir erhält der Spieler einen Vampirmantel als Gegenstand den er statt eines Brustpanzers verwenden kann. Der Vampirmantel funktioniert wie eine Elytra, kann allerdings nur zum Gleiten verwendet werden (Raketen funktionieren nicht als Antrieb). Die Haltbarkeit des Vampirmantels ist doppelt so hoch wie bei der Elytra. Außerdem bekommt der Vampir den Gegenstand "Vampirzahn" - ein Dolch der dem Opfer Blut absaugt und dem Vampir hinzufügt. Angriffsschnelligkeit ist 2.6 und Schaden 6, Haltbarkeit wie bei einem Eisenschwert oer Diamantschwert.
+
+
+
+# Outtakes
+
+Mit dem Crafting Rezept (G = Goldbarren, N = Gold Nugget, O = Obsidian) kann ein Kelch des Blutes gecraftet werden:
+
+```
+G - G
+N O N
+- G -
+```
+
+Dieser Kelch des Blutes kann mit folgendem Rezept gefüllt werden (B = Blutflasche, K = Kelch):
+
+```
+- B -
+B K B
+- B -
+```
+
+Der Kelch des Blutes kann nicht gestackt werden, weder leer noch gefüllt.
+
+Trinkt der Vampir den gefüllten Kelch des Blutes bekommt er den Effekt Blutrausch. Dieser Effekt bewirkt:
+ - Die gesamte Spielsicht wird in einen rötlichen Farbton getaucht.
+ - Blutrausch beinhaltet den Effekt Stärke II
+ - Blutrausch beinhaltet den Effekt Schnelligkeit I
+ - Blutrausch beinhaltet den Effekt Schutz I
+ - Der Effekt klingt nach einer bestimmten Zeit von selbst ab
