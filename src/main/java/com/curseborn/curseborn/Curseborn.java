@@ -12,6 +12,7 @@ import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
 import org.slf4j.Logger;
+import com.curseborn.curseborn.registry.ModEffects;
 
 // The value here should match an entry in the META-INF/neoforge.mods.toml file
 @Mod(Curseborn.MOD_ID)
@@ -22,6 +23,9 @@ public class Curseborn {
     public Curseborn(IEventBus modEventBus, ModContainer modContainer) {
         // Register the commonSetup method for mod loading
         modEventBus.addListener(this::commonSetup);
+
+    // Register deferred registers
+    ModEffects.MOB_EFFECTS.register(modEventBus);
 
         // Register ourselves for server and other game events we are interested in.
         // Note that this is necessary if and only if we want *this* class (Curseborn) to respond directly to events.

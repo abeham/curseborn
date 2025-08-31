@@ -1,6 +1,7 @@
 # Build output
 build/
 run/
+runs/
 .gradle/
 gradle-app.setting
 
